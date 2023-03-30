@@ -161,7 +161,7 @@ function Nabar() {
       {/* small screen menu */}
 
       <div
-        className={` absolute  z-10  border  top-20 right-0 px-5 mx:px-10 pb-5 rounded-b-xl transition-transform transform duration-300 ${
+        className={` absolute xl:hidden z-10  border  top-20 right-0 px-5 mx:px-10 pb-5 rounded-b-xl transition-transform transform duration-300 ${
           !menu && "translate-x-[120%]"
         } `}
       >
