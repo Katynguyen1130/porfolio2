@@ -161,8 +161,8 @@ function Nabar() {
       {/* small screen menu */}
 
       <div
-        className={` absolute xl:hidden z-10  border  top-20 right-0 px-5 mx:px-10 pb-5 rounded-b-xl transition-transform transform duration-300 ${
-          !menu && "translate-x-[120%]"
+        className={` absolute xl:hidden z-10    top-20 right-0 px-5 mx:px-10 pb-5 rounded-b-xl transition-all transform duration-500 ${
+          !menu && "translate-x-[120%]  scale-0"
         } `}
       >
         <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden bg-white/50 dark:bg-darkGray/50">
