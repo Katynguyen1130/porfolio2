@@ -17,6 +17,9 @@
   .main-margin {
     @apply mx-5 md:mx-10 lg:mx-16 xl:mx-20;
   }
+  .main-padding {
+    @apply px-5 md:px-10 lg:px-16 xl:px-20;
+  }
 
   .link-text {
     @apply text-sm xl:text-lg font-audio text-darkGray dark:text-white opacity-70;
