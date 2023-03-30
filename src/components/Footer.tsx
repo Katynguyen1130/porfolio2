@@ -17,10 +17,15 @@ function Footer() {
         </a>
       </div>
       <div className="w-full border-b-[3px] border-violet bg-green  dark:border-yellow overflow-hidden ">
-        <Marquee direction="left" speed={80} className="h-full bg-green-500" gradient={false}>
-          <div className="font-lg bg-violet text-darkGray dark:bg-yellow dark:text-darkGray py-2 ">
-            ✌️ (❁´◡`❁)
-            😍🍕╰(*°▽°*)╯😻🍔ᓚᘏᗢᓚᘏᗢ😺😹(*/ω＼*)🙀😿ψ(｀∇´)ψ🐈‍⬛😾（*＾-＾*）🍟🌭[]~(￣▽￣)~*🎇🎏🎀ㄟ(≧◇≦)ㄏ🪝🐛🙀😿＼(((￣(￣(￣▽￣)￣)￣)))／🚕🛹🛴🥨🥐🥪🌮🍗
+        <Marquee direction="left" speed={60} className="h-full bg-green-500" gradient={false}>
+          <div className="font-lg bg-violet text-darkGray dark:bg-yellow dark:text-darkGray py-2 font-labrada font-regular">
+            ✌️ (❁´◡`❁) I love Pizza 😍🍕╰(*°▽°*) Kat loves Burgers╯😻🍔ᓚᘏᗢᓚᘏᗢ😺😹(*/ω＼*)Kat feels
+            sad🙀😿ψ(｀∇´)ψ🐈‍⬛😾 therefore（*＾-＾*） Kat has fries 🍟🌭[]~(￣▽￣)~*🎇 yay now it's
+            good🎏🎀ㄟ(≧◇≦)ㄏ🪝🐛kat's bored🙀😿＼(((￣(￣(￣▽￣)￣)￣)))／ kat drives out🚕🛹🛴
+            then kat eats 🥨🥐🥪🌮🍗 then Kat's happy✌️ (❁´◡`❁) 😍🍕╰(*°▽°*)╯Hi
+            again😻🍔ᓚᘏᗢᓚᘏᗢ😺😹(*/ω＼*) what to eat?🙀😿ψ(｀∇´)ψ🐈‍⬛😾（*＾-＾*）fries or hot
+            dogs?🍟🌭[]~(￣▽￣)~*🎇🎏🎀ㄟ(≧◇≦)ㄏ🪝🐛 hard to choose
+            🙀😿＼(((￣(￣(￣▽￣)￣)￣)))／just go out🚕🛹🛴 then eat🥨🥐🥪🌮🍗
           </div>
         </Marquee>
       </div>
