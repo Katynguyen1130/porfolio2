@@ -15,9 +15,7 @@ export default function Home() {
       </Head>
       <MainLayout>
         <main className={""}>
-          <div className="bg-red-500 mx-auto ">
-            <p className="font-bold">Hello</p>
-          </div>
+          <div className="bg-red-500 mx-auto "></div>
         </main>
       </MainLayout>
     </>
