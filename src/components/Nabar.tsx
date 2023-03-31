@@ -85,8 +85,8 @@ function Nabar() {
                 y1="10"
                 x2="240"
                 y2="10"
-                stroke-width="20"
-                stroke-linecap="round"
+                strokeWidth="20"
+                strokeLinecap="round"
                 stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
                 className="fill-violet dark:fill-yellow"
               />
@@ -95,8 +95,8 @@ function Nabar() {
                 y1="80"
                 x2="240"
                 y2="80"
-                stroke-width="20"
-                stroke-linecap="round"
+                strokeWidth="20"
+                strokeLinecap="round"
                 stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
                 className="fill-violet dark:fill-yellow"
               />
@@ -105,8 +105,8 @@ function Nabar() {
                 y1="150"
                 x2="240"
                 y2="150"
-                stroke-width="20"
-                stroke-linecap="round"
+                strokeWidth="20"
+                strokeLinecap="round"
                 stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
                 className="fill-violet dark:fill-yellow"
               />
@@ -137,8 +137,8 @@ function Nabar() {
                 x2="54.1421"
                 y2="140.511"
                 stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
-                stroke-width="20"
-                stroke-linecap="round"
+                strokeWidth="20"
+                strokeLinecap="round"
                 className="fill-violet dark:fill-yellow"
               />
               <line
@@ -147,8 +147,8 @@ function Nabar() {
                 x2="138.514"
                 y2="142.372"
                 stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
-                stroke-width="20"
-                stroke-linecap="round"
+                strokeWidth="20"
+                strokeLinecap="round"
                 className="fill-violet dark:fill-yellow"
               />
             </svg>
