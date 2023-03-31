@@ -2,6 +2,7 @@ import Head from "next/head";
 
 import MainLayout from "@/layout/MainLayout";
 import Hero from "@/components/Hero";
+import About from "@/components/About";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
             <p className="text-center">Oops! This site is under construction! </p>
           </div>
           <Hero />
+          <About />
           <div className="bg-red-500 mx-auto "></div>
         </main>
       </MainLayout>
