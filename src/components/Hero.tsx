@@ -19,7 +19,8 @@ function Hero() {
           </span>{" "}
         </div>
         <h1 className="font-audio text-3xl pb-10 xl:pb-20 leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-left tracking-wide ">
-          Frontend Developer
+          Frontend <br />
+          Developer
         </h1>
         <p className="font-monterat text-md lg:tex-xl   text-center lg:text-left ">
           Get to know me more? (❁´◡`❁)
