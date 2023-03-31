@@ -12,7 +12,7 @@ function Nabar() {
   const location = router.asPath;
   console.log(location);
   return (
-    <div className=" fixed top-0 w-full  flex flex-row justify-between items-center main-padding bg-opacity-50  ">
+    <div className=" fixed top-0 w-full z-50 bg-white/70 dark:bg-darkGray/70 flex flex-row justify-between items-center main-padding bg-opacity-50  ">
       <Link href="/">
         <div className="h-12">
           {theme === "dark" ? (
