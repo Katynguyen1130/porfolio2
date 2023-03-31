@@ -47,7 +47,7 @@ body {
 body {
   overflow-x: hidden;
   max-width: 100%;
-  background-image: url("../assets/images/bg.png");
+  background-image: url("/bg.png");
 }
 body.dark {
   background: black;
