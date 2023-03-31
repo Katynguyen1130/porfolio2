@@ -5,7 +5,7 @@ module.exports = {
     extend: {
       fontFamily: {
         labrada: ['"Labrada", serif'],
-        poppins: ['"Open+Sans"'],
+        monterat: ['"Montserrat"'],
         audio: ["Audiowide"],
       },
     },

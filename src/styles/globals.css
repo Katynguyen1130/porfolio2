@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Labrada:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -37,6 +39,12 @@
   .button-base:hover {
     @apply border-white dark:border  bg-violet/50 dark:bg-transparent  dark:border-yellow;
   }
+  .section-mt {
+    @apply mt-5 md:mt-10 lg:mt-20 xl:mt-28;
+  }
+  .text-mt {
+    @apply mt-2 md:mt-5 lg:mt-10 xl:mt-12;
+  }
 }
 
 html,
@@ -52,4 +60,74 @@ body {
 body.dark {
   background: black;
   color: #f2f2f2;
+}
+
+/* Swiper CSS ********************************************************/
+.swiper {
+  width: 370px;
+  height: 500px;
+}
+
+@media screen and (max-width: 1280px) {
+  .swiper {
+    width: 320px;
+    height: 428px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .swiper {
+    width: 250px;
+    height: 357px;
+  }
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-color: #feadcd;
+}
+
+.swiper-slide:nth-child(2n) {
+  background-color: #ffec9e;
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: #7ae7b9;
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: #5bd2f0;
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: #9be7ff;
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: #b9acf2;
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: #feadcd;
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: #ff6363;
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: #b6ff75;
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: #ff7bd6;
 }

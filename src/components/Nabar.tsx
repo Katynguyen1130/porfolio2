@@ -28,9 +28,6 @@ function Nabar() {
           <Link href="/" className={`link-text ${location === "/" && "active"}`}>
             Home
           </Link>
-          <Link href="/#about" className={`link-text ${location === "/#about" && "active"}`}>
-            About
-          </Link>
           <Link href="/projects" className={`link-text ${location === "/project" && "active"}`}>
             Projects
           </Link>
@@ -168,9 +165,6 @@ function Nabar() {
         <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden bg-opacity-50">
           <Link href="/" className={`link-text ${location === "/" && "active"}`}>
             Home
-          </Link>
-          <Link href="/#about" className={`link-text ${location === "/#about" && "active"}`}>
-            About
           </Link>
           <Link href="/projects" className={`link-text ${location === "/project" && "active"}`}>
             Projects

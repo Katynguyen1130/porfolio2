@@ -1,6 +1,7 @@
 import Head from "next/head";
 
 import MainLayout from "@/layout/MainLayout";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       </Head>
       <MainLayout>
         <main className={""}>
+          <Hero />
           <div className="bg-red-500 mx-auto "></div>
         </main>
       </MainLayout>
