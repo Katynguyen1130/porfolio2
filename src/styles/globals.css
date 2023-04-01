@@ -45,6 +45,9 @@
   .text-mt {
     @apply mt-2 md:mt-5 lg:mt-10 xl:mt-12;
   }
+  .header-text {
+    @apply text-[30px] md:text-[40px] lg:text-[60px] font-audio;
+  }
 }
 
 html,
@@ -58,7 +61,8 @@ body {
   background-image: url("/bg.png");
 }
 body.dark {
-  background: black;
+  background-image: url("/bgdark.png");
+
   color: #f2f2f2;
 }
 
@@ -132,6 +136,13 @@ body.dark {
   background-color: #ff7bd6;
 }
 
+/* Disable seclec text  */
+.disable-text {
+   -webkit-user-select: none;
+   -moz-user-select: none;
+   -ms-user-select: none;
+   user-select: none;
+}
 /* Boook animation ********************************* */
 .w-mod-touch * {
   /* background-attachment: scroll !important; */

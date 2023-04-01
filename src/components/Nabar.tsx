@@ -24,20 +24,32 @@ function Nabar() {
       </Link>
       {/* large screen menu */}
       <div className="hidden lg:!block">
-        <div className=" flex flex-row gap-x-5 xl:gap-x-10">
-          <Link href="/" className={`link-text ${location === "/" && "active"}`}>
+        <div className=" flex flex-row gap-x-5 xl:gap-x-10 no-underline">
+          <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>
-          <Link href="/projects" className={`link-text ${location === "/project" && "active"}`}>
+          <Link
+            href="/projects"
+            className={`link-text ${location === "/project" && "active"} no-underline`}
+          >
             Projects
           </Link>
-          <Link href="/work" className={`link-text ${location === "/work" && "active"}`}>
+          <Link
+            href="/work"
+            className={`link-text ${location === "/work" && "active"} no-underline`}
+          >
             Work log
           </Link>
-          <Link href="/blog" className={`link-text ${location === "/blog" && "active"}`}>
+          <Link
+            href="/blog"
+            className={`link-text ${location === "/blog" && "active"} no-underline`}
+          >
             Blogs
           </Link>
-          <Link href="/#contact" className={`link-text ${location === "/#contact" && "active"}`}>
+          <Link
+            href="/#contact"
+            className={`link-text ${location === "/#contact" && "active"} no-underline`}
+          >
             Contacts
           </Link>
           {theme === "dark" ? (
@@ -163,19 +175,31 @@ function Nabar() {
         } `}
       >
         <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden bg-opacity-50">
-          <Link href="/" className={`link-text ${location === "/" && "active"}`}>
+          <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>
-          <Link href="/projects" className={`link-text ${location === "/project" && "active"}`}>
+          <Link
+            href="/projects"
+            className={`link-text ${location === "/project" && "active"} no-underline`}
+          >
             Projects
           </Link>
-          <Link href="/work" className={`link-text ${location === "/work" && "active"}`}>
+          <Link
+            href="/work"
+            className={`link-text ${location === "/work" && "active"} no-underline`}
+          >
             Work log
           </Link>
-          <Link href="/blog" className={`link-text ${location === "/blog" && "active"}`}>
+          <Link
+            href="/blog"
+            className={`link-text ${location === "/blog" && "active"} no-underline`}
+          >
             Blogs
           </Link>
-          <Link href="/#contact" className={`link-text ${location === "/#contact" && "active"}`}>
+          <Link
+            href="/#contact"
+            className={`link-text ${location === "/#contact" && "active"} no-underline`}
+          >
             Contacts
           </Link>
           {theme === "dark" ? (

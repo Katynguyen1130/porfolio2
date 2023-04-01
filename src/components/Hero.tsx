@@ -6,27 +6,40 @@ import { images } from "@/assets/images";
 import "swiper/css";
 import "swiper/css/effect-cards";
 import { EffectCards } from "swiper";
+import useMousePosition from "./../customhooks/use-mouse-position";
+import useWindowSize from "./../customhooks/use-window-size";
 
 function Hero() {
+  const { x, y } = useMousePosition();
+  const size = useWindowSize();
   return (
-    <div className="main-padding section-mt  pt-12 flex flex-col items-center lg:flex-row gap-x-10 w-full overflow-hidden justify-between">
-      <div className=" py-10 max-w-7xl">
+    <div className="main-padding section-mt  pt-12 items-center grid grig-cols-1 lg:grid-cols-2 w-full overflow-hidden ">
+      <div className=" py-10 max-w-5xl">
         <div className="mb-5 xl:mb-10">
           {" "}
-          <span className="text-xl lg:text-[40px] xl:text-[60px]  font-audio text-violet dark:text-red">
+          <p className="text-xl lg:text-[40px] xl:text-[60px]  font-audio text-violet dark:text-red text-center lg:text-right">
             {" "}
             Hi, I'm Katy
-          </span>{" "}
+          </p>{" "}
         </div>
-        <h1 className="font-audio text-3xl pb-10 xl:pb-20 leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-left tracking-wide ">
-          Frontend <br />
-          Developer
-        </h1>
-        <p className="font-monterat text-md lg:tex-xl   text-center lg:text-left ">
+        <div
+          style={{
+            transform: `translate3d(
+                    ${(x / size.width) * 5 - 2.5}%, 
+                    ${(y / size.height) * 2 + 2}%, 
+                    0px)`,
+          }}
+        >
+          <h1 className="font-audio text-3xl pb-10 xl:pb-20 leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-right tracking-wide select-none  ">
+            Frontend <br />
+            Developer
+          </h1>
+        </div>
+        <p className="font-monterat text-md lg:tex-xl   text-center lg:text-right  ">
           Get to know me more? (❁´◡`❁)
         </p>
-        <div className="flex flex-row gap-x-5">
-          <p>Find me at 👉</p>
+        <div className="flex flex-row gap-x-5 text-center justify-end lg:text-right">
+          <p className="text-center lg:text-right">Find me at 👉</p>
           <a href="https://www.linkedin.com/in/katy-nguyen-431594121/" target="blank">
             <svg
               width="22"
@@ -74,7 +87,7 @@ function Hero() {
         </div>
       </div>
       {/* sliders */}
-      <div className=" mx-auto h-full  flex flex-col  items-center">
+      <div className=" mx-auto h-full  flex flex-col  items-center max-w-3xl">
         <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="mySwiper">
           <SwiperSlide>
             <div className=" px-5 py-5  flex flex-col items-center overflow-hidden justify-between h-full">
