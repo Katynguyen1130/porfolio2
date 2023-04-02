@@ -153,6 +153,33 @@ function About() {
           </div>
         }
       </div>
+      <div className={`lg:hidden ${!book && "h-0"} `}>
+        {book && (
+          <div className="paper rounded-lg overflow-hidden  !text-darkGray">
+            <div className="">
+              <h3 className="text-lg !text-darkGray">
+                <strong>The Start</strong>
+              </h3>
+              <h6>
+                BY 
+                <a href="https://www.linkedin.com/in/katy-nguyen-431594121/" target="_blank">
+                  Katy Nguyen
+                </a>
+              </h6>
+              <p>‍</p>
+              <p>It was an autumn night, I couldn't sleep </p>
+              <p>Browsing facebook newfeed, I saw a friend of my mentioning CS50 course.</p>
+              <p>Curiousity got me, I checked that course out.</p>
+              <p>Printf("Hello World"), the very first step which got me here</p>
+              <p>Curiousity killed the cat</p>
+              <p>Katy's new journey started with curiousity</p>
+              <div className="w-[150px] h-[100px] xl:w-[200px] xl:h-[150px] xxl:w-[300px] xxl:h-[200px] mx-auto overflow-hidden">
+                <Image src={images.curiousity} alt="hello world" />
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
     </div>
   );
 }
