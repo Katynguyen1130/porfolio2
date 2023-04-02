@@ -25,8 +25,8 @@ function Hero() {
         <div
           style={{
             transform: `translate3d(
-                    ${(x / size?.width || 1) * 5 - 2.5}%, 
-                    ${(y / size?.height || 1) * 2 + 2}%, 
+                    ${(x / (size.width + 1)) * 5 - 2.5}%, 
+                    ${(y / (size.width + 1)) * 2 + 2}%, 
                     0px)`,
           }}
         >
