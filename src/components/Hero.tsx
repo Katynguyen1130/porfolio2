@@ -17,7 +17,7 @@ function Hero() {
       <div className=" py-10 max-w-5xl">
         <div className="mb-5 xl:mb-10">
           {" "}
-          <p className="text-xl lg:text-[40px] xl:text-[60px]  font-audio text-violet dark:text-red text-center lg:text-right">
+          <p className="header-text  font-audio text-violet dark:text-red text-center lg:text-right">
             {" "}
             Hi, I'm Katy
           </p>{" "}
@@ -30,7 +30,7 @@ function Hero() {
                     0px)`,
           }}
         >
-          <h1 className="font-audio text-3xl pb-10 xl:pb-20 leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-right tracking-wide select-none  ">
+          <h1 className="font-audio text-5xl pb-10 xl:pb-20 leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-right tracking-wide select-none  ">
             Frontend <br />
             Developer
           </h1>
@@ -38,7 +38,7 @@ function Hero() {
         <p className="font-monterat text-md lg:tex-xl   text-center lg:text-right  ">
           Get to know me more? (❁´◡`❁)
         </p>
-        <div className="flex flex-row gap-x-5 text-center justify-end lg:text-right">
+        <div className="flex flex-row gap-x-5 text-center justify-center lg:justify-end lg:text-right">
           <p className="text-center lg:text-right">Find me at 👉</p>
           <a href="https://www.linkedin.com/in/katy-nguyen-431594121/" target="blank">
             <svg

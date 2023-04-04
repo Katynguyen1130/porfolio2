@@ -174,7 +174,7 @@ function Nabar() {
           !menu && "translate-x-[120%]  scale-0"
         } `}
       >
-        <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden bg-opacity-50">
+        <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden  bg-white/70 dark:bg-darkGray/70 pl-10 pb-10 rounded-bl-xl">
           <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>
