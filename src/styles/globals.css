@@ -24,7 +24,7 @@
   }
 
   .link-text {
-    @apply text-sm xl:text-lg font-audio text-darkGray dark:text-white opacity-70;
+    @apply text-sm xl:text-base font-audio text-darkGray dark:text-white opacity-70;
   }
   .link-text:hover {
     @apply font-bold cursor-pointer opacity-100;
@@ -49,7 +49,7 @@
     @apply text-[30px] md:text-[40px] lg:text-[60px] font-audio;
   }
   .large-text {
-    @apply text-[20px] md:text-[25px] lg:text-[30px] font-monterat font-bold;
+    @apply text-[16px] md:text-[20px] lg:text-[22px] font-monterat font-semibold;
   }
   .body-text {
     @apply text-[14px] md:text-[16px] lg:text-[18px] font-monterat font-normal;
