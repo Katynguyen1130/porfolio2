@@ -40,7 +40,7 @@
     @apply border-white dark:border  bg-violet/50 dark:bg-transparent  dark:border-yellow;
   }
   .section-mt {
-    @apply mt-5 md:mt-10 lg:mt-20 xl:mt-28;
+    @apply mt-10 md:mt-16 lg:mt-20 xl:mt-28;
   }
   .text-mt {
     @apply mt-2 md:mt-5 lg:mt-10 xl:mt-12;
@@ -61,7 +61,7 @@ body {
   background-image: url("/bg.png");
 }
 body.dark {
-  background-image: url("/bgdark.png");
+  background-image: url("/bgdark.jpeg");
 
   color: #f2f2f2;
 }

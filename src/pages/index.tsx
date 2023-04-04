@@ -17,9 +17,6 @@ export default function Home() {
       </Head>
       <MainLayout>
         <main className={""}>
-          <div className=" text-[30px] text-center font-bold mt-[60px] font-monterat text-darkGray  dark:text-yellow mx-auto">
-            <p className="text-center">Oops! This site is under construction! </p>
-          </div>
           <Hero />
           <About />
           <div className="bg-red-500 mx-auto "></div>

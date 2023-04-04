@@ -27,7 +27,9 @@ function About() {
           onClick={() => {
             setBook(true);
           }}
-          className={`font-audio mx-5 cursor:pointer px-5 rounded-md ${book && "border "}`}
+          className={`font-audio mx-5 cursor:pointer px-5 rounded-md ${
+            book && "dark:text-yellow text-violet"
+          }`}
         >
           Yes
         </button>
