@@ -48,6 +48,12 @@
   .header-text {
     @apply text-[30px] md:text-[40px] lg:text-[60px] font-audio;
   }
+  .large-text {
+    @apply text-[20px] md:text-[25px] lg:text-[30px] font-monterat font-bold;
+  }
+  .body-text {
+    @apply text-[14px] md:text-[16px] lg:text-[18px] font-monterat font-normal;
+  }
 }
 
 html,

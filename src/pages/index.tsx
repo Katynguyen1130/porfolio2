@@ -3,6 +3,8 @@ import Head from "next/head";
 import MainLayout from "@/layout/MainLayout";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import TechStack from "@/components/TechStack";
+import Experience from "@/components/Experience";
 
 export default function Home() {
   return (
@@ -19,7 +21,8 @@ export default function Home() {
         <main className={""}>
           <Hero />
           <About />
-          <div className="bg-red-500 mx-auto "></div>
+          <TechStack />
+          <Experience />
         </main>
       </MainLayout>
     </>

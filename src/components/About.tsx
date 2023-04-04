@@ -21,7 +21,7 @@ function About() {
   console.log("ref", ref.current);
   return (
     <div className="mx-auto px-2 section-mt">
-      <div className="text-center header-text ">Read my stories?</div>
+      <div className="text-center header-text dark:text-yellow ">Read my stories?</div>
       <div className="text-center my-5">
         <button
           onClick={() => {
