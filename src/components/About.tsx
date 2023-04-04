@@ -162,7 +162,7 @@ function About() {
         {book && (
           <div className="flex flex-col items-center">
             <div className="paper rounded-lg overflow-hidden  !text-darkGray px-10 md:px-40 py-20 ">
-              <div className="">
+              <div className="font-monterat font-semibold text-darkGray/70">
                 <h3 className="text-lg  !text-darkGray">
                   <strong>The Start</strong>
                 </h3>
@@ -202,7 +202,7 @@ function About() {
             </div>
             {next && (
               <div className="paper rounded-lg overflow-hidden  !text-darkGray px-5 md:px-40 py-10 md:py-20 ">
-                <div className="">
+                <div className="font-monterat font-semibold text-darkGray/70">
                   <h3>
                     <strong>Don't limit yourself! </strong>
                   </h3>

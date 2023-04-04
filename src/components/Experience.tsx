@@ -9,7 +9,7 @@ function Experience() {
         <span className="text-violet dark:text-orange">- David McCullough Jr.</span>
       </p>
       <a href="/work">
-        <button className="px-5 py-2 border rounded-lg border-violet/50 hover:bg-violet/50 dark:border-offWhite dark:hover:text-yellow dark:hover:bg-darkGray dark:hover:border-darkGray">
+        <button className="px-5 py-2 body-text border rounded-lg border-violet/50 hover:bg-violet/50 dark:border-offWhite dark:hover:text-yellow dark:hover:bg-darkGray dark:hover:border-darkGray">
           Check out Katy's Work Experience
         </button>
       </a>

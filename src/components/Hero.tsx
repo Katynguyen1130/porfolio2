@@ -14,10 +14,10 @@ function Hero() {
   const size = useWindowSize();
   return (
     <div className="main-padding section-mt  pt-12 items-center grid grig-cols-1 lg:grid-cols-2 w-full overflow-hidden ">
-      <div className=" py-10 max-w-5xl">
+      <div className="  max-w-5xl">
         <div className="mb-5 xl:mb-10">
           {" "}
-          <p className="header-text  font-audio text-violet dark:text-red text-center lg:text-right">
+          <p className="header-text  font-audio text-violet dark:text-yellow text-center lg:text-right">
             {" "}
             Hi, I'm Katy
           </p>{" "}
