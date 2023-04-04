@@ -49,7 +49,7 @@
     @apply text-[30px] md:text-[40px] lg:text-[60px] font-audio;
   }
   .large-text {
-    @apply text-[16px] md:text-[20px] lg:text-[22px] font-monterat font-semibold;
+    @apply text-[16px] md:text-[20px] lg:text-[22px] font-monterat font-normal dark:text-offWhite;
   }
   .body-text {
     @apply text-[14px] md:text-[16px] lg:text-[18px] font-monterat font-normal;
