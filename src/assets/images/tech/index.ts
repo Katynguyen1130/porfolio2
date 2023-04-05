@@ -10,6 +10,7 @@ import python from "./python.png";
 import next from "./nextjs.png";
 import three from "./three.png";
 import scrum from "./scrum.png";
+import native from "./native.png";
 
 export const tech = {
   figma,
@@ -24,4 +25,5 @@ export const tech = {
   typescript,
   python,
   scrum,
+  native,
 };
