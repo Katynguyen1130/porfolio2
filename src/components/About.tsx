@@ -42,6 +42,12 @@ function About() {
           No
         </button>
       </div>
+      {!book && (
+        <div className="px-10 py-5 w-full max-w-3xl transition duration-300 mx-auto heartbeat">
+          <Image src={images.dog1} alt="about me" className="w-full" />
+        </div>
+      )}
+
       <div ref={ref} className={`hidden lg:!block ${!book && "h-0"} `}>
         {
           <div className={`transition-all ease-in-out  ${!book && "scale-0 opacity-0"}`}>

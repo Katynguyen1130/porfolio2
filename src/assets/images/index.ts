@@ -10,6 +10,7 @@ import about07 from "./about07.jpeg";
 import about08 from "./about08.jpeg";
 import about09 from "./about09.png";
 import curiousity from "./curiousity.jpg";
+import dog1 from "./dog1.png";
 
 export const images = {
   logoDark,
@@ -24,4 +25,5 @@ export const images = {
   about08,
   about09,
   curiousity,
+  dog1,
 };
