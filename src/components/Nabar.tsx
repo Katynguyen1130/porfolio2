@@ -12,7 +12,7 @@ function Nabar() {
   const location = router.asPath;
   console.log(location);
   return (
-    <div className=" fixed top-0 w-full z-50 bg-white/70 dark:bg-darkGray/70 flex flex-row justify-between items-center main-padding bg-opacity-50  ">
+    <div className=" fixed top-0 w-full z-50 bg-[#f6bab0] dark:bg-darkGray/70 flex flex-row justify-between items-center main-padding bg-opacity-50  ">
       <Link href="/">
         <div className="h-12">
           {theme === "dark" ? (
@@ -174,7 +174,7 @@ function Nabar() {
           !menu && "translate-x-[120%]  scale-0"
         } `}
       >
-        <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden  bg-white/70 dark:bg-darkGray/70 pl-10 px-10 pb-10 rounded-bl-xl">
+        <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden  bg-[#f6bab0] dark:bg-darkGray/70 pl-10 px-10 pb-10 rounded-bl-xl">
           <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>

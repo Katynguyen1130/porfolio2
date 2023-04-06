@@ -29,11 +29,16 @@ function Hero() {
                     ${(y / (size.width + 1)) * 2 + 2}%, 
                     0px)`,
           }}
+          className="pb-5 xl:pb-10"
         >
-          <h1 className="font-audio text-5xl pb-10 xl:pb-20 leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-right tracking-wide select-none  ">
+          <h1 className="font-audio text-5xl leading-none lg:text-[80px] xl:text-[100px] text-center lg:text-right tracking-wide select-none  ">
             Frontend <br />
             Developer
           </h1>
+          <p className="header-text  font-audio  text-center lg:text-right">
+            {" "}
+            and, <span className="text-pink dark:text-red">Scrum Master</span> 
+          </p>{" "}
         </div>
         <p className="font-monterat text-md lg:tex-xl   text-center lg:text-right  ">
           Get to know me more? (❁´◡`❁)

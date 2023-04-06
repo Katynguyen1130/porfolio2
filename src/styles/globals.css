@@ -64,10 +64,12 @@ body {
 body {
   overflow-x: hidden;
   max-width: 100%;
-  background-image: url("/bg.png");
+  /* background-image: url("/bg.png"); */
+  background: rgba(246,186,176,0.4);
+  /* , rgba(246,206,252,0.5), rgba(255,143,146,0.3)); */
 }
 body.dark {
-  background-image: url("/bgdark.jpeg");
+  background: #292929;
 
   color: #f2f2f2;
 }
