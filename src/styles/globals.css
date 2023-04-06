@@ -65,7 +65,7 @@ body {
   overflow-x: hidden;
   max-width: 100%;
   /* background-image: url("/bg.png"); */
-  background: rgba(246,186,176,0.4);
+  background: rgba(251,204,211,0.3);
   /* , rgba(246,206,252,0.5), rgba(255,143,146,0.3)); */
 }
 body.dark {
