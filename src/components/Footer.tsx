@@ -18,7 +18,7 @@ function Footer() {
       </div>
       <div className="w-full border-b-[3px] border-violet bg-green  dark:border-yellow overflow-hidden ">
         <Marquee direction="left" speed={60} className="h-full bg-green-500" gradient={false}>
-          <div className="font-lg bg-violet text-darkGray dark:bg-yellow dark:text-darkGray py-2 font-labrada font-regular">
+          <div className="font-lg bg-violet text-offWhite dark:bg-yellow dark:text-darkGray py-2 font-labrada font-regular">
             ✌️ (❁´◡`❁) I love Pizza 😍🍕╰(*°▽°*) Kat loves Burgers╯😻🍔ᓚᘏᗢᓚᘏᗢ😺😹(*/ω＼*)Kat feels
             sad🙀😿ψ(｀∇´)ψ🐈‍⬛😾 therefore（*＾-＾*） Kat has fries 🍟🌭[]~(￣▽￣)~*🎇 yay now it's
             good🎏🎀ㄟ(≧◇≦)ㄏ🪝🐛kat's bored🙀😿＼(((￣(￣(￣▽￣)￣)￣)))／ kat drives out🚕🛹🛴
