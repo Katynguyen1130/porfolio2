@@ -43,7 +43,7 @@ function About() {
         </button>
       </div>
       {!book && (
-        <div className="px-10 py-5 w-full max-w-3xl transition duration-300 mx-auto heartbeat">
+        <div className="px-10 py-5 w-full max-w-3xl transition duration-300 mx-auto floating">
           <Image src={images.dog1} alt="about me" className="w-full" />
         </div>
       )}
