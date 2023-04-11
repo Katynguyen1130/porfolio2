@@ -5,6 +5,7 @@ import Hero from "@/components/Hero";
 import About from "@/components/About";
 import TechStack from "@/components/TechStack";
 import Experience from "@/components/Experience";
+import Introduction from "@/components/Introduction";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <MainLayout>
         <main className={""}>
           <Hero />
+          <Introduction />
           <About />
           <TechStack />
           <Experience />

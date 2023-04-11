@@ -11,6 +11,12 @@ import about08 from "./about08.jpeg";
 import about09 from "./about09.png";
 import curiousity from "./curiousity.jpg";
 import dog1 from "./dog1.png";
+import hero from "./hero.png";
+import cat from "./cat.png";
+import wifi from "./wifi.png";
+import cloud01 from "./cloud01.png";
+import cloud02 from "./cloud02.png";
+
 
 export const images = {
   logoDark,
@@ -26,4 +32,9 @@ export const images = {
   about09,
   curiousity,
   dog1,
+  hero,
+  cat, 
+  wifi, 
+  cloud01, 
+  cloud02, 
 };

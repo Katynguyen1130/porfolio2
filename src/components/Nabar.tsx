@@ -12,7 +12,7 @@ function Nabar() {
   const location = router.asPath;
   console.log(location);
   return (
-    <div className=" fixed top-0 w-full z-50 bg-[#f6bab0] dark:bg-darkGray/70 flex flex-row justify-between items-center main-padding bg-opacity-50  ">
+    <div className=" fixed top-0 w-full z-50 bg-lightPink dark:bg-darkGray/70 flex flex-row justify-between items-center main-padding bg-opacity-50  ">
       <Link href="/">
         <div className="h-12">
           {theme === "dark" ? (
@@ -77,7 +77,7 @@ function Nabar() {
       </div>
 
       {/* hamburger menu */}
-      <div className="xl:hidden">
+      <div className="lg:hidden">
         {!menu ? (
           <div
             className="transition py-5 px-5 "
@@ -99,7 +99,7 @@ function Nabar() {
                 y2="10"
                 strokeWidth="20"
                 strokeLinecap="round"
-                stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
+                stroke={`${theme === "dark" ? "yellow" : "#490CA6"}`}
                 className="fill-violet dark:fill-yellow"
               />
               <line
@@ -109,7 +109,7 @@ function Nabar() {
                 y2="80"
                 strokeWidth="20"
                 strokeLinecap="round"
-                stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
+                stroke={`${theme === "dark" ? "yellow" : "#490CA6"}`}
                 className="fill-violet dark:fill-yellow"
               />
               <line
@@ -119,7 +119,7 @@ function Nabar() {
                 y2="150"
                 strokeWidth="20"
                 strokeLinecap="round"
-                stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
+                stroke={`${theme === "dark" ? "yellow" : "#490CA6"}`}
                 className="fill-violet dark:fill-yellow"
               />
             </svg>
@@ -148,7 +148,7 @@ function Nabar() {
                 y1="56.1421"
                 x2="54.1421"
                 y2="140.511"
-                stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
+                stroke={`${theme === "dark" ? "yellow" : "#490CA6"}`}
                 strokeWidth="20"
                 strokeLinecap="round"
                 className="fill-violet dark:fill-yellow"
@@ -158,7 +158,7 @@ function Nabar() {
                 y1="58"
                 x2="138.514"
                 y2="142.372"
-                stroke={`${theme === "dark" ? "yellow" : "#8080FF"}`}
+                stroke={`${theme === "dark" ? "yellow" : "#490CA6"}`}
                 strokeWidth="20"
                 strokeLinecap="round"
                 className="fill-violet dark:fill-yellow"
@@ -174,7 +174,7 @@ function Nabar() {
           !menu && "translate-x-[120%]  scale-0"
         } `}
       >
-        <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden  bg-[#f6bab0] dark:bg-darkGray/70 pl-10 px-10 pb-10 rounded-bl-xl">
+        <div className=" flex flex-col gap-y-5 md:gap-y-10 lg:hidden  bg-lightPink/70 dark:bg-darkGray/70 pl-10 px-10 pb-10 rounded-bl-xl">
           <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>
