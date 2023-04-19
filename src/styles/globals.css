@@ -42,6 +42,12 @@
   .section-mt {
     @apply mt-10 md:mt-16 lg:mt-20 xl:mt-28;
   }
+  .section-mb {
+    @apply mb-10 md:mb-16 lg:mb-20 xl:mb-28;
+  }
+  .section-py {
+    @apply py-10 md:py-16 lg:py-20 xl:py-28;
+  }
   .text-mt {
     @apply mt-2 md:mt-5 lg:mt-10 xl:mt-12;
   }
@@ -64,7 +70,7 @@ body {
 body {
   overflow-x: hidden;
   max-width: 100%;
-  background: #F6C9DF;
+  background: #fff;
 }
 body.dark {
   background: #121212;
@@ -77,14 +83,20 @@ body.dark {
   background-size: 100% auto;
 }
 
-
-
-
+.bg01 {
+  background-image: url("/bg01.png");
+  background-repeat: repeat;
+  background-size: 100% auto;
+}
+.dark .bg01 {
+  background-image: url("/bg02.png");
+  background-repeat: repeat;
+  background-size: 100% auto;
+}
 
 /* animation  */
 
-
-.floating { 
+.floating {
   animation-name: floating;
   animation-duration: 10s;
   animation-iteration-count: infinite;
@@ -94,73 +106,83 @@ body.dark {
 }
 
 @keyframes floating {
-  0% { transform: translate(0,  0px); }
-  20%  { transform: translate(55px, 15px); }
-  50% { transform: translate(0,  0px); }
-  80%  { transform: translate(-25px, -15px); }
-  100%   { transform: translate(0, -0px); }   
+  0% {
+    transform: translate(0, 0px);
+  }
+  20% {
+    transform: translate(55px, 15px);
+  }
+  50% {
+    transform: translate(0, 0px);
+  }
+  80% {
+    transform: translate(-25px, -15px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
 }
 
 .wobble-hor-bottom {
-	-webkit-animation: wobble-hor-bottom 3s infinite both;
-	        animation: wobble-hor-bottom 3s infinite both;
+  -webkit-animation: wobble-hor-bottom 3s infinite both;
+  animation: wobble-hor-bottom 3s infinite both;
 }
 @-webkit-keyframes wobble-hor-bottom {
   0%,
   100% {
     -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
   }
   15% {
     -webkit-transform: translateX(-30px) rotate(-6deg);
-            transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
   }
   30% {
     -webkit-transform: translateX(15px) rotate(6deg);
-            transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
   }
   45% {
     -webkit-transform: translateX(-15px) rotate(-3.6deg);
-            transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
   }
   60% {
     -webkit-transform: translateX(9px) rotate(2.4deg);
-            transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
   }
   75% {
     -webkit-transform: translateX(-6px) rotate(-1.2deg);
-            transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
   }
 }
 @keyframes wobble-hor-bottom {
   0%,
   100% {
     -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+    transform: translateX(0%);
     -webkit-transform-origin: 50% 50%;
-            transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
   }
   15% {
     -webkit-transform: translateX(-30px) rotate(-6deg);
-            transform: translateX(-30px) rotate(-6deg);
+    transform: translateX(-30px) rotate(-6deg);
   }
   30% {
     -webkit-transform: translateX(15px) rotate(6deg);
-            transform: translateX(15px) rotate(6deg);
+    transform: translateX(15px) rotate(6deg);
   }
   45% {
     -webkit-transform: translateX(-15px) rotate(-3.6deg);
-            transform: translateX(-15px) rotate(-3.6deg);
+    transform: translateX(-15px) rotate(-3.6deg);
   }
   60% {
     -webkit-transform: translateX(9px) rotate(2.4deg);
-            transform: translateX(9px) rotate(2.4deg);
+    transform: translateX(9px) rotate(2.4deg);
   }
   75% {
     -webkit-transform: translateX(-6px) rotate(-1.2deg);
-            transform: translateX(-6px) rotate(-1.2deg);
+    transform: translateX(-6px) rotate(-1.2deg);
   }
 }
 
@@ -170,7 +192,7 @@ body.dark {
  * animation heartbeat
  * ----------------------------------------
  */
- /* CSS Animation ************* */
+/* CSS Animation ************* */
 .heartbeat {
   -webkit-animation: heartbeat 3s ease-in-out infinite both;
   animation: heartbeat 3s ease-in-out infinite both;
@@ -191,8 +213,8 @@ body.dark {
     animation-timing-function: ease-in;
   }
   17% {
-    -webkit-transform: scale(0.920);
-    transform: scale(0.920);
+    -webkit-transform: scale(0.92);
+    transform: scale(0.92);
     -webkit-animation-timing-function: ease-out;
     animation-timing-function: ease-out;
   }
@@ -245,126 +267,125 @@ body.dark {
 }
 
 .jello-horizontal {
-	-webkit-animation: jello-horizontal 0.9s infinite both;
-	        animation: jello-horizontal 0.9s infinite both;
+  -webkit-animation: jello-horizontal 0.9s infinite both;
+  animation: jello-horizontal 0.9s infinite both;
 }
 
 @-webkit-keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-            transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-            transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
   }
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-            transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
   }
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-            transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
   }
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-            transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
   }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
 @keyframes jello-horizontal {
   0% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
   30% {
     -webkit-transform: scale3d(1.25, 0.75, 1);
-            transform: scale3d(1.25, 0.75, 1);
+    transform: scale3d(1.25, 0.75, 1);
   }
   40% {
     -webkit-transform: scale3d(0.75, 1.25, 1);
-            transform: scale3d(0.75, 1.25, 1);
+    transform: scale3d(0.75, 1.25, 1);
   }
   50% {
     -webkit-transform: scale3d(1.15, 0.85, 1);
-            transform: scale3d(1.15, 0.85, 1);
+    transform: scale3d(1.15, 0.85, 1);
   }
   65% {
     -webkit-transform: scale3d(0.95, 1.05, 1);
-            transform: scale3d(0.95, 1.05, 1);
+    transform: scale3d(0.95, 1.05, 1);
   }
   75% {
     -webkit-transform: scale3d(1.05, 0.95, 1);
-            transform: scale3d(1.05, 0.95, 1);
+    transform: scale3d(1.05, 0.95, 1);
   }
   100% {
     -webkit-transform: scale3d(1, 1, 1);
-            transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
   }
 }
 
-
 .vibrate-2 {
-	-webkit-animation: vibrate-2 3s linear infinite both;
-	        animation: vibrate-2 3s linear infinite both;
+  -webkit-animation: vibrate-2 3s linear infinite both;
+  animation: vibrate-2 3s linear infinite both;
 }
 @-webkit-keyframes vibrate-2 {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   20% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
   40% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   60% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
   80% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
 }
 @keyframes vibrate-2 {
   0% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
   20% {
     -webkit-transform: translate(2px, -2px);
-            transform: translate(2px, -2px);
+    transform: translate(2px, -2px);
   }
   40% {
     -webkit-transform: translate(2px, 2px);
-            transform: translate(2px, 2px);
+    transform: translate(2px, 2px);
   }
   60% {
     -webkit-transform: translate(-2px, 2px);
-            transform: translate(-2px, 2px);
+    transform: translate(-2px, 2px);
   }
   80% {
     -webkit-transform: translate(-2px, -2px);
-            transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
   }
   100% {
     -webkit-transform: translate(0);
-            transform: translate(0);
+    transform: translate(0);
   }
 }
 /* Swiper CSS ********************************************************/

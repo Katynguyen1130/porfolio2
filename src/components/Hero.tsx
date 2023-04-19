@@ -13,7 +13,7 @@ function Hero() {
   const { x, y } = useMousePosition();
   const size = useWindowSize();
   return (
-    <div className="main-padding section-mt   pt-12 flex flex-col lg:flex-row gap-y-20 w-full bg-gradient-to-b  from-lightPink via-yellow to-lightPink dark:from-darkGray dark:to-darkGray">
+    <div className="main-padding mt-24 flex flex-col lg:flex-row gap-y-20 w-full bg01 dark:bg-darkGray overflow-hidden">
       <div className=" flex flex-col lg:justify-center lg:w-[35%] ">
         <div className="mb-5 xl:mb-10">
           {" "}
@@ -32,10 +32,10 @@ function Hero() {
           className="pb-5 xl:pb-10"
         >
           <h1 className="leading-none  header-text font-audio text-center  tracking-wide select-none  ">
-            Frontend Developer </h1>
+            Frontend Developer{" "}
+          </h1>
           <p className=" font-audio  text-center ">
-           
-            and, <span className="text-red dark:text-pink large-text font-audio">Scrum Master</span> 
+            and, <span className="text-red dark:text-pink large-text font-audio">Scrum Master</span>
           </p>
         </div>
         <p className="font-monterat text-md lg:tex-xl   text-center  ">
@@ -93,22 +93,21 @@ function Hero() {
       <div className="flex flex-col justify-end items-center lg:w-[60%] relative">
         <div className="font-audio large-text ">Find the cat</div>
         <div className=" w-full ">
-          <Image alt="hero" src={images.hero} className='w-full object-cover '  />
+          <Image alt="hero" src={images.hero} className="w-full object-cover " />
         </div>
         <div className=" absolute w-[30%] top-40 left-40 opacity-0 hover:opacity-100 transition duration-300">
-          <Image alt="cat" src={images.cat} className=' object-cover '  />
+          <Image alt="cat" src={images.cat} className=" object-cover " />
         </div>
         <div className=" absolute w-[30%] top-10 left-10  vibrate-2  ">
-          <Image alt="cloud1" src={images.cloud01} className='w-full object-cover '  />
+          <Image alt="cloud1" src={images.cloud01} className="w-full object-cover " />
         </div>
         <div className=" absolute w-[30%] top-10 rotate-145 -right-10 wobble-hor-bottom ">
-          <Image alt="cloud2" src={images.cloud01} className='w-full object-cover '  />
+          <Image alt="cloud2" src={images.cloud01} className="w-full object-cover " />
         </div>
         <div className=" absolute w-[30%] top-10 left-40 jello-horizontal">
-          <Image alt="cloud2" src={images.wifi} className='w-full object-cover '  />
+          <Image alt="cloud2" src={images.wifi} className="w-full object-cover " />
         </div>
       </div>
-      
     </div>
   );
 }

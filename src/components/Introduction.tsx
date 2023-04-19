@@ -8,8 +8,8 @@ import { EffectCards } from "swiper";
 
 function Introduction() {
   return (
-    <div className="section-mt bg-gradient-to-b  from-lightPink via-yellow to-lightPink dark:from-darkGray dark:via-extraLightGray dark:to-darkGray">
-        {/* sliders */}
+    <div className="section-py">
+      {/* sliders */}
       <div className=" mx-auto h-full  flex flex-col  items-center max-w-3xl">
         <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]} className="mySwiper">
           <SwiperSlide>
@@ -164,7 +164,7 @@ function Introduction() {
         </Swiper>
       </div>
     </div>
-  )
+  );
 }
 
-export default Introduction
+export default Introduction;
