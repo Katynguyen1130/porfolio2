@@ -13,7 +13,7 @@ function Hero() {
   const { x, y } = useMousePosition();
   const size = useWindowSize();
   return (
-    <div className="main-padding mt-24 flex flex-col lg:flex-row gap-y-20 w-full bg01 dark:bg-darkGray overflow-hidden">
+    <div className="main-padding section-py mt-20 flex flex-col lg:flex-row gap-y-20 w-full bg01 dark:bg-darkGray overflow-hidden">
       <div className=" flex flex-col lg:justify-center lg:w-[35%] ">
         <div className="mb-5 xl:mb-10">
           {" "}
