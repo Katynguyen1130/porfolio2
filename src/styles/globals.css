@@ -1186,3 +1186,13 @@ a {
     min-width: 21px;
   }
 }
+
+.path {
+  stroke-dasharray: 1000;
+  animation: dash 10s linear backwards infinite;
+}
+@keyframes dash {
+  to {
+    stroke-dashoffset: 2000;
+  }
+}

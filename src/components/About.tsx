@@ -20,7 +20,7 @@ function About() {
   }, []);
   console.log("ref", ref.current);
   return (
-    <div className="mx-auto px-2 section-py bg-[#FDD3E1]/50 dark:bg-[#2a0134] overflow-hidden">
+    <div className="mx-auto px-2 section-py bg-lightPink dark:bg-violet overflow-hidden">
       <div className="text-center header-text dark:text-yellow ">Read my stories?</div>
       <div className="text-center my-5">
         <button

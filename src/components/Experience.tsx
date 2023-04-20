@@ -2,7 +2,7 @@ import React from "react";
 
 function Experience() {
   return (
-    <div className="main-padding section-py flex flex-col items-center gap-5 bg-[#FDD3E1]/50 dark:bg-[#2a0134] ">
+    <div className="main-padding section-py flex flex-col items-center gap-5 bg-lightPink dark:bg-violet ">
       <div className="header-text dark:text-yellow font-audio">My Working Journey</div>
       <p className="body-text ">
         "Climb mountains not so the world can see you, but so you can see the world."{" "}
