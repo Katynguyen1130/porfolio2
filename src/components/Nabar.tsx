@@ -28,24 +28,24 @@ function Nabar() {
           <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>
-          <Link
+          {/* <Link
             href="/projects"
             className={`link-text ${location === "/project" && "active"} no-underline`}
           >
             Projects
-          </Link>
+          </Link> */}
           <Link
             href="/work"
             className={`link-text ${location === "/work" && "active"} no-underline`}
           >
             Work log
           </Link>
-          <Link
+          {/* <Link
             href="/blog"
             className={`link-text ${location === "/blog" && "active"} no-underline`}
           >
             Blogs
-          </Link>
+          </Link> */}
           <Link
             href="/#contact"
             className={`link-text ${location === "/#contact" && "active"} no-underline`}
@@ -178,24 +178,24 @@ function Nabar() {
           <Link href="/" className={`link-text ${location === "/" && "active"} no-underline`}>
             Home
           </Link>
-          <Link
+          {/* <Link
             href="/projects"
             className={`link-text ${location === "/project" && "active"} no-underline`}
           >
             Projects
-          </Link>
+          </Link> */}
           <Link
             href="/work"
             className={`link-text ${location === "/work" && "active"} no-underline`}
           >
             Work log
           </Link>
-          <Link
+          {/* <Link
             href="/blog"
             className={`link-text ${location === "/blog" && "active"} no-underline`}
           >
             Blogs
-          </Link>
+          </Link> */}
           <Link
             href="/#contact"
             className={`link-text ${location === "/#contact" && "active"} no-underline`}

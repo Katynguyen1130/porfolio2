@@ -3,7 +3,7 @@ import Marquee from "react-fast-marquee";
 
 function Footer() {
   return (
-    <div className="flex flex-row   w-screen overflow-hidden pb-5 ">
+    <div className="flex flex-row bg-lightPink dark:bg-darkGray  w-screen overflow-hidden pb-5 ">
       <div className="flex flex-col w-[180px] lg:w-[300px] items-end  text-darkGray dark:text-offWhite border-violet dark:border-yellow  border-t-[3px] border-r-[3px] ">
         <a href="https://github.com/Katynguyen1130" target="blank">
           <p className="mr-2 font-audio text-xs lg:text-base mt-1 cursor-pointer border-b-[2px] border-transparent hover:border-violet dark:hover:border-yellow transition duration-300 ease-in-out">
