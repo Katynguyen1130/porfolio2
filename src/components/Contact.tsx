@@ -76,7 +76,7 @@ function Contact() {
               className="fill-darkGray dark:fill-white inline-block"
             />
           </svg>
-          Telok Blangah, Sinagpore
+          Telok Blangah, Singapore
         </div>
 
         <a href="mailto:nhumai.ktqd@gmail.com" className="no-underline">
