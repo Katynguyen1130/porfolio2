@@ -96,8 +96,8 @@ function Hero() {
         <div className=" w-full ">
           <Image alt="hero" src={images.hero} className="w-full object-cover " />
         </div>
-        <div className=" absolute w-[30%] top-40 left-40 opacity-0 hover:opacity-100 transition duration-300">
-          <Image alt="cat" src={images.cat} className=" object-cover " />
+        <div className=" absolute z-10 lg:left-24 w-[300px] lg:w-[500px] katy transition duration-150">
+          <Image alt="cat" src={images.katy} className=" object-cover " />
         </div>
         <div className=" absolute w-[30%] top-10 left-10  vibrate-2  ">
           <Image alt="cloud1" src={images.cloud01} className="w-full object-cover " />

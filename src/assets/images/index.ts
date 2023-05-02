@@ -16,7 +16,7 @@ import cat from "./cat.png";
 import wifi from "./wifi.png";
 import cloud01 from "./cloud01.png";
 import cloud02 from "./cloud02.png";
-
+import katy from "./katy.png";
 
 export const images = {
   logoDark,
@@ -33,8 +33,9 @@ export const images = {
   curiousity,
   dog1,
   hero,
-  cat, 
-  wifi, 
-  cloud01, 
-  cloud02, 
+  cat,
+  wifi,
+  cloud01,
+  cloud02,
+  katy,
 };

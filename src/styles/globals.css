@@ -1206,3 +1206,22 @@ a {
 }
 
 /* Timeline for work section starts */
+.katy {
+  opacity: 0;
+  animation: opacityOn 15s ease infinite;
+  animation-delay: 2s;
+}
+
+@keyframes opacityOn {
+  0%,
+  20%,
+  80%,
+  100% {
+    opacity: 0;
+  }
+
+  30%,
+  50% {
+    opacity: 1;
+  }
+}
