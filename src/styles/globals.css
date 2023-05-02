@@ -48,6 +48,9 @@
   .section-py {
     @apply py-10 md:py-16 lg:py-20 xl:py-28;
   }
+  .section-px {
+    @apply px-5 md:px-10 lg:px-16 xl:px-20;
+  }
   .text-mt {
     @apply mt-2 md:mt-5 lg:mt-10 xl:mt-12;
   }
@@ -92,6 +95,11 @@ body.dark {
   background-image: url("/bg02.png");
   background-repeat: repeat;
   background-size: 100% auto;
+}
+
+.dark .timeLiMo:after {
+  background: linear-gradient(#490ca6, #292929);
+  color: white;
 }
 
 /* animation  */

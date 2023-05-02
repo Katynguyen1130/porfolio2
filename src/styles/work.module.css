@@ -3,12 +3,18 @@
   padding: 0;
   margin: 0;
   display: grid;
-  grid-template-columns: repeat(3, 220px);
+  grid-template-columns: repeat(3, 150px);
   justify-content: center;
-  @media only screen and (min-width: 1280px) {
+
+  @media screen and (min-width: 680px) {
+    grid-template-columns: repeat(3, 250px);
+  }
+
+  @media screen and (min-width: 1280px) {
     grid-template-columns: repeat(3, 300px);
   }
 }
+
 .timelineli {
   grid-column: span 2;
   text-align: center;
@@ -72,6 +78,8 @@
 }
 
 .timeline {
+  width: 100vw;
+
   background: radial-gradient(farthest-side at top right, #f1ec40 98%, #0000) calc(50% - 10px) 0/20px
       20px no-repeat,
     radial-gradient(farthest-side at bottom right, #f1ec40 98%, #0000) calc(50% - 10px) 100%/20px
@@ -106,7 +114,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.65);
   position: absolute;
   top: 20px;
-  left: 100px;
+  left: 50px;
   display: none;
 }
 
@@ -133,7 +141,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.65);
   position: absolute;
   top: 20px;
-  left: 100px;
+  left: 50px;
   display: none;
 }
 .timelineli:before {
@@ -149,11 +157,48 @@
 .timelineli:hover {
   z-index: 1000;
   position: relative;
-  color: #8325f7;
+  color: #490ca6;
 }
 .timelineli:hover:after {
   display: block;
 }
 .timelineli:hover:before {
   display: block;
+}
+
+/* Style.time */
+.timeLiMo:hover:after {
+  display: block;
+}
+.timeLiMo {
+  position: relative;
+}
+
+.timeLiMo:after {
+  content: attr(data-title);
+  font-family: Montserrat;
+  font-size: 14px;
+
+  color: #000;
+  width: 300px;
+  height: 150px;
+  padding: 5px 10px;
+  -moz-border-radius: 6px;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #490ca6;
+  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.65);
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.65);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.65);
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  display: none;
+  z-index: 10;
+  color: white;
+}
+
+.dark .timeLiMo:after {
+  background: linear-gradient(#490ca6, #292929);
+  color: white;
 }

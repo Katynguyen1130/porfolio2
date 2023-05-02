@@ -66,8 +66,8 @@ export default function SplashScreen({ finishLoading }: Props) {
   }, []);
 
   return (
-    <div className="h-screen bg-[#2a0134] w-screen flex flex-col justify-center items-center px-10">
-      <div className="bg-[#2a0134] relative w-full xl:w-[1200px] h-[250px] ml-4 lg:ml-20 ml4 font-audio  font-extrabold">
+    <div className="h-screen bg-[#490ca6] w-screen flex flex-col justify-center items-center px-10">
+      <div className="bg-[#490ca6] relative w-full xl:w-[1200px] h-[250px] ml-4 lg:ml-20 ml4 font-audio  font-extrabold">
         <h1 className="absolute opacity-0 letters-1  text-[50px] md:text-[100px] lg:text-[120px] xl:text-[150px] font-outline-2 text-transparent">
           {" "}
           HI, IT'S KATY

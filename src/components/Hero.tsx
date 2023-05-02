@@ -35,10 +35,11 @@ function Hero() {
             Frontend Developer{" "}
           </h1>
           <p className=" font-audio  text-center ">
-            and, <span className="text-red dark:text-pink large-text font-audio">Scrum Master</span>
+            and,{" "}
+            <span className="text-red dark:text-pink  header-text font-audio">Scrum Master</span>
           </p>
         </div>
-        <p className="font-monterat text-md lg:tex-xl   text-center  ">
+        <p className="font-monterat text-md lg:tex-xl    text-center  ">
           Get to know me more? (❁´◡`❁)
         </p>
         <div className="flex flex-row gap-x-5 text-center justify-center  ">
@@ -91,7 +92,7 @@ function Hero() {
       </div>
       {/* hero image */}
       <div className="flex flex-col justify-end items-center lg:w-[60%] relative">
-        <div className="font-audio large-text ">Find the cat</div>
+        {/* <div className="font-audio large-text ">Find the cat</div> */}
         <div className=" w-full ">
           <Image alt="hero" src={images.hero} className="w-full object-cover " />
         </div>
