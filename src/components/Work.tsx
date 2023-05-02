@@ -86,7 +86,7 @@ function Work() {
               title={"Co-founder"}
               company={"Side project with the amazing friends I got after the above Scam"}
               tip={
-                "Got Scam, but then got an amazing team of developers and martering and Product Manager. We decided to make something toghether."
+                "Got Scam, but then got an amazing team of developers and marketing and Product Manager. We decided to stay as a team and make something great toghether."
               }
             />
           </ul>
@@ -144,7 +144,7 @@ function Work() {
               title={"Co-founder"}
               company={"Side project with the amazing friends I got after the above Scam"}
               tip={
-                "Got Scam, but then got an amazing team of developers and martering and Product Manager. We decided to make something toghether."
+                "Got Scam, but then got an amazing team of developers and marketing and Product Manager. We decided to stay as a team and make something great toghether."
               }
             />
           </div>
