@@ -81,14 +81,14 @@ function Work() {
               }
             />
 
-            <Timetab
+            {/* <Timetab
               time={"April-2023-Now"}
               title={"Co-founder"}
               company={"Side project with the amazing friends I got after the above Scam"}
               tip={
                 "Got Scam, but then got an amazing team of developers and marketing and Product Manager. We decided to stay as a team and make something great toghether."
               }
-            />
+            /> */}
           </ul>
         </div>
         <div className="h-24 bg-lightPink dark:bg-darkGray"></div>
@@ -139,14 +139,14 @@ function Work() {
               }
             />
 
-            <Timetabmobile
+            {/* <Timetabmobile
               time={"April-2023-Now"}
               title={"Co-founder"}
               company={"Side project with the amazing friends I got after the above Scam"}
               tip={
                 "Got Scam, but then got an amazing team of developers and marketing and Product Manager. We decided to stay as a team and make something great toghether."
               }
-            />
+            /> */}
           </div>
         </div>
       </div>
