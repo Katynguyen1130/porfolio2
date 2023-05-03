@@ -167,7 +167,7 @@ function Introduction() {
           </SwiperSlide>
         </Swiper>
       </div>
-      <div className="w-full h-full absolute -z-10 top-0 left-0">
+      <div className="w-full h-full absolute -z-10 top-0 left-0 flex flex-col items-center">
         {/* <svg
           width="1601"
           height="861"
