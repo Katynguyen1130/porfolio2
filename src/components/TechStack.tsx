@@ -5,7 +5,7 @@ import { tech } from "@/assets/images/tech";
 function TechStack() {
   return (
     <div className="main-margin section-mt flex flex-col items-center ">
-      <div className="header-text dark:text-yellow font-audio text-center">Tech Stack </div>
+      <div className="header-text dark:text-yellow font-audio text-center">Tech Stacks </div>
       <div className="grid grid-cols-2 gap-10 bg-white/70 dark:bg-darkGray/70 rounded-3xl py-10 px-5">
         <div className="text-center my-auto  large-text ">UI/UX design</div>
         <div>
