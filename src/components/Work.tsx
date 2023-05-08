@@ -114,7 +114,7 @@ function Work() {
             />
 
             <Timetabmobile
-              time={"Nov March 2017- April 2022"}
+              time={"Nov March 2017- Dec 2021"}
               title={"Project/Account Manager "}
               company={" Vietnam Fortress Tools JSC (Vietnam)"}
               tip={
@@ -122,7 +122,7 @@ function Work() {
               }
             />
             <Timetabmobile
-              time={"August 2022-Now"}
+              time={"Jan 2022-Now"}
               title={"Front End Developer"}
               company={" boomco.org (Korean-remote)"}
               tip={
