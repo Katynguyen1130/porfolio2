@@ -56,7 +56,7 @@ function Work() {
             />
 
             <Timetab
-              time={"Nov March 2017- April 2022"}
+              time={"Feb 2017- Dec 2021"}
               title={"Project/Account Manager "}
               company={" Vietnam Fortress Tools JSC (Vietnam)"}
               tip={
@@ -64,7 +64,7 @@ function Work() {
               }
             />
             <Timetab
-              time={"August 2022-Now"}
+              time={"Jan 2022-Now"}
               title={"Front End Developer"}
               company={" boomco.org (Korean-remote)"}
               tip={
@@ -105,7 +105,7 @@ function Work() {
               }
             />
             <Timetabmobile
-              time={"Nov 2015-Sept2016"}
+              time={"Nov 2015-Sept 2016"}
               title={"Content Marketer"}
               company={"Vanoka.vn (Vietnam)"}
               tip={
@@ -114,7 +114,7 @@ function Work() {
             />
 
             <Timetabmobile
-              time={"Nov March 2017- Dec 2021"}
+              time={"Feb 2017- Dec 2021"}
               title={"Project/Account Manager "}
               company={" Vietnam Fortress Tools JSC (Vietnam)"}
               tip={
